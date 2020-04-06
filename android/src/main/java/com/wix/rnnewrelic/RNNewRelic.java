@@ -37,4 +37,9 @@ public class RNNewRelic extends ReactContextBaseJavaModule {
     public String getName() {
         return "RNNewRelic";
     }
+
+    @Override
+    public boolean canOverrideExistingModule() {
+        return true;
+    }
 }
